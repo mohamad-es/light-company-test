@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router";
-import HomePage from "../features/Home/HomePage";
 import MessagePage from "../features/Message/MessagePage";
 import WalletPage from "../features/Wallet/WalletPage";
 import App from "../App";
+import HomePage from "../features/Home/pages/HomePage";
 
 export const router = createBrowserRouter([
   {

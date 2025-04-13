@@ -1,12 +1,12 @@
 import { Dispatch, SetStateAction, useRef, useState } from "react";
-import { TProject } from "../types";
+import { TProject } from "../utils/types";
 
 export const useCreateProject = (setProjects: Dispatch<SetStateAction<TProject[]>>) => {
   const [projectName, setProjectName] = useState<string>("Sample Project");
   const [description, setDescription] = useState<string>("This is a dummy project description.");
   const [startDate, setStartDate] = useState<string>("2024-01-01");
   const [endDate, setEndDate] = useState<string>("2024-06-30");
-  const [status, setStatus] = useState<string>("In Progress"); // Add status state
+  const [status, setStatus] = useState<string>("In Progress"); 
 
   const modalsRef = useRef<HTMLDialogElement | null>(null);
 
@@ -44,6 +44,6 @@ export const useCreateProject = (setProjects: Dispatch<SetStateAction<TProject[]
     endDate,
     startDate,
     description,
-    status
+    status,
   };
 };

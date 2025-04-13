@@ -2,7 +2,7 @@ import Layout from "./layout/Layout";
 
 function App() {
   return (
-    <div className={"dark:bg-main min-h-screen overflow-auto"}>
+    <div>
       <Layout />
     </div>
   );

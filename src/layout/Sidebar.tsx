@@ -12,9 +12,9 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="w-64 h-screen bg-base-200 p-4">
-      <h2 className="text-xl font-semibold mb-6">Dashboard</h2>
-      <ul className="menu p-4 space-y-4 w-full">
+    <div className="w-64 py-4">
+      <h2 className="text-xl font-semibold mb-6 px-4">Dashboard</h2>
+      <ul className="menu py-4 space-y-4 w-full">
         {menuItems.map((item) => (
           <li key={item.path}>
             <Link
@@ -27,7 +27,7 @@ const Sidebar = () => {
         ))}
       </ul>
     </div>
-  );
+  )
 };
 
 export default Sidebar;
