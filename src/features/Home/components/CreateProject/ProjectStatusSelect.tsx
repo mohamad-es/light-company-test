@@ -8,7 +8,7 @@ type TProjectStatusSelect = {
 const ProjectStatusSelect = ({ setStatus, status }: TProjectStatusSelect) => {
   return (
     <div>
-      <label htmlFor="status" className="label">
+      <label htmlFor="status" className="label mb-2 text-sm">
         <span className="label-text">Status</span>
       </label>
       <select

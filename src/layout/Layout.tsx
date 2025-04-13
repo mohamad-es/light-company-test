@@ -8,7 +8,7 @@ const Layout = () => {
       <Sidebar />
 
       {/* Main content */}
-      <div className="container mx-auto px-10">
+      <div className="w-full">
         <Outlet />
       </div>
     </div>

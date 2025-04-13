@@ -8,3 +8,33 @@
 .secondary-color {
   color: #b98c54;
 }
+
+.primary-bg-color {
+  background-color: #5e1a28;
+}
+
+.secondary-bg-color {
+  background-color: #b98c54;
+}
+
+input,
+textarea,
+select,
+option {
+  border-radius: 10px;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: none;
+}
+
+.custom-primary-btn {
+  background-color: #5e1a28;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+}

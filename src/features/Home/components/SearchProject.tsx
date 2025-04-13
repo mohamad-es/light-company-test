@@ -8,7 +8,7 @@ const SearchProject = ({ handleSearchChange, searchTerm }: TSearchProject) => {
     <input
       type="text"
       placeholder="Search by title or description"
-      className="input input-bordered w-1/2"
+      className="input input-bordered w-full"
       value={searchTerm}
       onChange={handleSearchChange}
     />

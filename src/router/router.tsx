@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
-import MessagePage from "../features/Message/MessagePage";
-import WalletPage from "../features/Wallet/WalletPage";
+import MessagePage from "../features/Message/pages/MessagePage";
+import WalletPage from "../features/Wallet/pages/WalletPage";
 import App from "../App";
 import HomePage from "../features/Home/pages/HomePage";
 

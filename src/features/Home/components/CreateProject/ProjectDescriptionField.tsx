@@ -8,7 +8,7 @@ type TProjectDescriptionField = {
 const ProjectDescriptionField = ({ description, setDescription }: TProjectDescriptionField) => {
   return (
     <div>
-      <label htmlFor="description" className="label">
+      <label htmlFor="description" className="label mb-2 text-sm">
         <span className="label-text">Description</span>
       </label>
       <textarea

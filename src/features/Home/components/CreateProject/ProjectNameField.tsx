@@ -8,7 +8,7 @@ type TProjectNameField = {
 const ProjectNameField = ({projectName,setProjectName}:TProjectNameField) => {
   return (
     <div>
-      <label htmlFor="projectName" className="label">
+      <label htmlFor="projectName" className="label mb-2 text-sm">
         <span className="label-text">Project Name</span>
       </label>
       <input

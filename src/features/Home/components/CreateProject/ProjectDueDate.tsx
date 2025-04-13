@@ -10,8 +10,8 @@ type TProjectDueDate = {
 const ProjectDueDate = ({ setStartDate, startDate, endDate, setEndDate }: TProjectDueDate) => {
   return (
     <div className="flex space-x-4">
-      <div>
-        <label htmlFor="startDate" className="label">
+      <div className="flex-1">
+        <label htmlFor="startDate" className="label mb-2 text-sm">
           <span className="label-text">Start Date</span>
         </label>
         <input
@@ -23,8 +23,8 @@ const ProjectDueDate = ({ setStartDate, startDate, endDate, setEndDate }: TProje
         />
       </div>
 
-      <div>
-        <label htmlFor="endDate" className="label">
+      <div className="flex-1">
+        <label htmlFor="endDate" className="label mb-2 text-sm">
           <span className="label-text">End Date</span>
         </label>
         <input

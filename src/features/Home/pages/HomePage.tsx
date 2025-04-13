@@ -10,7 +10,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between ps-10 pt-10">
+      <div className="flex items-center justify-between px-10 pt-10">
         <h1 className="text-3xl">Project List</h1>
         {/* Pass setProjects to CreateProject */}
         <CreateProject setProjects={setProjects} />
@@ -25,7 +25,7 @@ const HomePage = () => {
       </div>
 
       {/* Project Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
         {filteredProjects.length === 0
           ? "No Project found."
           : filteredProjects.map((project) => (

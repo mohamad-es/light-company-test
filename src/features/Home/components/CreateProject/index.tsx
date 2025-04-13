@@ -28,7 +28,7 @@ const CreateProject: React.FC<CreateProjectProps> = ({ setProjects }) => {
 
   return (
     <>
-      <button className="btn btn-primary rounded-xl" onClick={() => modalsRef.current?.showModal()}>
+      <button className="btn custom-primary-btn " onClick={() => modalsRef.current?.showModal()}>
         Create New Project
       </button>
 
@@ -54,7 +54,7 @@ const CreateProject: React.FC<CreateProjectProps> = ({ setProjects }) => {
               <button className="btn" onClick={() => modalsRef.current?.close()}>
                 Close
               </button>
-              <button type="button" className="btn btn-primary" onClick={handleCreateProject}>
+              <button type="button" className="btn custom-primary-btn" onClick={handleCreateProject}>
                 Create Project
               </button>
             </div>

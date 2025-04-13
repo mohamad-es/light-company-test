@@ -19,7 +19,9 @@ const Sidebar = () => {
           <li key={item.path}>
             <Link
               to={item.path}
-              className={`hover:bg-gray-300 ${location.pathname === item.path ? 'bg-gray-300' : ''}`}
+              className={`hover:bg-gray-300 ${
+                location.pathname === item.path ? "primary-bg-color text-white" : ""
+              }`}
             >
               {item.label}
             </Link>
@@ -27,7 +29,7 @@ const Sidebar = () => {
         ))}
       </ul>
     </div>
-  )
+  );
 };
 
 export default Sidebar;
