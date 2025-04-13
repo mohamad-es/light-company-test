@@ -8,10 +8,10 @@ type Props = {
 
 const ProjectCard = ({ title, description, startDate, endDate, status }: Props) => {
   return (
-    <div className="card bg-base-100 shadow-xl border border-gray-200">
+    <div className="card h-60 bg-base-100 shadow-xl border border-gray-200">
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p>{description}</p>
+        <p className="h-16 overflow-hidden">{description}</p>
         <div className="mt-4 flex justify-between text-sm text-gray-500">
           <span>Start: {startDate}</span>
           <span>End: {endDate}</span>

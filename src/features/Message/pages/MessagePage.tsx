@@ -15,7 +15,7 @@ const MessagePage = () => {
       {/* Chat Messages */}
       <div className="flex-1 p-4 overflow-auto space-y-4">
         {/* Render each message */}
-        {messages.map((msg) => (
+        {messages.length  === 0 ? "No chat started." : messages.map((msg) => (
           <MessageBubble msg={msg} key={msg} />
         ))}
       </div>

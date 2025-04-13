@@ -25,7 +25,7 @@ const HomePage = () => {
       </div>
 
       {/* Project Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6 h-[70vh] overflow-auto">
         {filteredProjects.length === 0
           ? "No Project found."
           : filteredProjects.map((project) => (
